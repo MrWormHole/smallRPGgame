@@ -1,8 +1,5 @@
 class Player
     @@playerCount = 0
-    @name
-    @health
-    @power
 
     attr_accessor :name,:health,:power,:armor,:weapon #lazy coding example {get; set;}
 
